@@ -1,4 +1,3 @@
-const path = require('path')
 const postpxtoviewport = require('postcss-px-to-viewport-8-plugin')
 
 module.exports = {
@@ -13,15 +12,6 @@ module.exports = {
       },
     ],
   ],
-  webpack: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@views': path.resolve(__dirname, 'src/views'),
-      '@utils': path.resolve('src/utils'),
-      '@styles': path.resolve('src/styles'),
-    },
-  },
   style: {
     postcss: {
       mode: 'extends',
