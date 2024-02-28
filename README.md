@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 移动端开发模版
+
+| 序号 | 功能点    |
+| :-: | -------------------------------------------------------------------------------------------------|
+| 1 | 新增移动端 antd-mobile UI 库 |
+| 2 | 新增@craco/craco、postcss-px-to-viewport-8-plugin，基于 antd-mobile 库 375px 设计稿，进行 px to vw 编译适配 |
+| 3 | 新增 react-router-dom 路由 |
